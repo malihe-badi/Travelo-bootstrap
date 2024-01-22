@@ -1,0 +1,126 @@
+body{
+  overflow-x: hidden;
+}
+.btn-search{
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    width: 80px;
+    height: 80px;
+
+} 
+.navbar{
+    padding: 0;
+}
+.navbar-toggler{
+    border-radius: 0;
+    width: 80px;
+    height: 80px;
+}
+/* header */
+#header{
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../image/01.jpg) no-repeat center 70%;
+    background-size: cover;
+    min-height:300px;
+   
+}
+#header h1{ 
+    font-size:80px;
+}
+#header button {
+  font-size: 18px;
+}
+
+.bg-color{
+    background-color: #1EC6B6;
+    color: white;
+}
+
+.delius-regular {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* first-form */
+  #first-form {
+    background-color: rgb(0, 3, 44);
+   min-height: 100px;
+  }
+  /* gallery */
+  .img1{
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),url(../image/Italy.jpg) no-repeat center center;
+    background-size: cover;
+    height: 250px;
+  }
+  .img2{
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),url(../image/Brazil.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 250px;
+  }
+  .img3{
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),url(../image/America.jpg) no-repeat center center;
+    background-size: cover;
+    height: 250px;
+  }
+  .img4{
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),url(../image/Maldives.jpg) no-repeat center center;
+    background-size: cover;
+    height: 250px;
+  }
+  .img5{
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),url(../image/Maldives-1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 250px;
+
+  }
+  .img6{
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),url(../image/07.jpg) no-repeat center center;
+    background-size: cover;
+    height: 250px;
+
+  }
+  .text-overlay {
+    position: absolute;
+    top:70%;
+    left: 0;
+    padding: 10px; 
+  }
+
+  /* Subscribe */
+  #Subscribe{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../image/05.jpg) no-repeat center 25%;
+    background-size: cover;
+    min-height: 250px;
+  }
+  /* Enjoy the video */
+  #EnjoyVideo{
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../image/Nature-1.jpg) no-repeat right center;
+    background-size: cover;
+    width: 100%;
+    min-height:500px;
+    line-height: 500px;
+  }
+  /* enjoy-video */
+  .enjoy-video{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 80px;
+    font-size: 20px;
+  }
+
+ .center-top{
+  padding-top:150px;
+ }
+ .fs-7{
+  font-size: 70px;
+ }
+/* footer */
+#footer{
+  background-color: rgb(0, 3, 44);
+  min-height: 300px;
+}
